@@ -1,17 +1,17 @@
-import Header from "@/widgets/header/header";
-import "./globals.css";
+import Header from '@/widgets/header/header'
+import './globals.css'
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="en">
       <body>
-        <Header/>
+        <Header />
         {children}
       </body>
     </html>
-  );
+  )
 }
