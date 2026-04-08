@@ -10,6 +10,7 @@ export default function Page() {
       <PracticeInfo />
       <AdviceInfo />
       <WhoWeAre />
+      <div className="h-98"></div>
     </section>
   )
 }
